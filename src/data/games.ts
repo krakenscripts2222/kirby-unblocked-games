@@ -41,7 +41,7 @@ export const games: Game[] = [
     title: 'Pac-Man',
     description: 'Navigate through the maze eating dots and avoiding ghosts',
     image: 'https://images.unsplash.com/photo-1579309401389-a2476dddf3d4?auto=format&fit=crop&q=80&w=800',
-    gameUrl: 'https://www.google.com/logos/2010/pacman10-i.html',
+    gameUrl: 'https://unblocked-games.s3.amazonaws.com/games/2024/gm/basketball-stars/index.html',
     category: 'arcade',
     icon: 'https://images.unsplash.com/photo-1579309401389-a2476dddf3d4?auto=format&fit=crop&q=80&w=200'
   }
