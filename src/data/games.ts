@@ -14,7 +14,7 @@ export const games: Game[] = [
     title: 'Planet Life Idle',
     description: 'Merge tiles to reach 2048 in this addictive puzzle game',
     image: 'https://i.imgur.com/bVKMke4.png',
-    gameUrl: 'https://games.crazygames.com/en_US/planet-life-idle/index.html?skipPrerollExp25=true&v=1.320',
+    gameUrl: 'https://html-classic.itch.zone/html/3542054-374790/Game/index.html?v=1732313781',
     category: 'puzzle',
     icon: 'https://i.imgur.com/bVKMke4.png'
   },
