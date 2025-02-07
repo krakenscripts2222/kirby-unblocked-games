@@ -65,7 +65,9 @@ export function GameView() {
               src={game.gameUrl}
               className="w-full h-full border-0"
               title={game.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              allow="accelerometer; gyroscope; gamepad; autoplay; payment; fullscreen; microphone; clipboard-read; clipboard-write"
+              sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups-to-escape-sandbox"
+              style={{ backgroundColor: 'rgb(255, 255, 255)', minWidth: '100%', minHeight: '100%' }}
             />
           </div>
         </div>
