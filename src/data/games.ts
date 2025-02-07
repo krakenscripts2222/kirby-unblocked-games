@@ -28,11 +28,11 @@ export const games: Game[] = [
     icon: 'https://images.unsplash.com/photo-1614294148960-9aa740632a87?auto=format&fit=crop&q=80&w=200'
   },
   {
-    id: '3',
-    title: 'Snake',
+    id: 'rooftop-snipers-2',
+    title: 'Rooftop Snipers 2',
     description: 'Guide the snake to eat food and grow longer',
     image: 'https://images.unsplash.com/photo-1628277613967-6abca504d0ac?auto=format&fit=crop&q=80&w=800',
-    gameUrl: 'https://playsnake.org/',
+    gameUrl: 'https://htmlxm.github.io/h6/rooftop-snipers-2',
     category: 'arcade',
     icon: 'https://images.unsplash.com/photo-1628277613967-6abca504d0ac?auto=format&fit=crop&q=80&w=200'
   },
