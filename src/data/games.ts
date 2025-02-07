@@ -10,20 +10,20 @@ export interface Game {
 
 export const games: Game[] = [
   {
-    id: '1',
+    id: 'planet-life-idle',
     title: 'Planet Life Idle',
     description: 'Merge tiles to reach 2048 in this addictive puzzle game',
     image: 'https://i.imgur.com/bVKMke4.png',
-    gameUrl: 'https://planet-life-idle.game-files.crazygames.com/unity/unity2020/planet-life-idle.html?skipPrerollExp25=true&v=1.320',
+    gameUrl: 'https://games.crazygames.com/en_US/planet-life-idle/index.html?skipPrerollExp25=true&v=1.320',
     category: 'puzzle',
     icon: 'https://i.imgur.com/bVKMke4.png'
   },
   {
-    id: '2',
-    title: 'Tetris',
+    id: 'space-waves',
+    title: 'Space Waves',
     description: 'Classic block-stacking puzzle game',
     image: 'https://images.unsplash.com/photo-1614294148960-9aa740632a87?auto=format&fit=crop&q=80&w=800',
-    gameUrl: 'https://tetris.com/play-tetris',
+    gameUrl: 'https://space-waves.game-files.crazygames.com/unity/unity2020/space-waves.html?skipPrerollExp25=true&v=1.320',
     category: 'puzzle',
     icon: 'https://images.unsplash.com/photo-1614294148960-9aa740632a87?auto=format&fit=crop&q=80&w=200'
   },

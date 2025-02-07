@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TowerControl as GameController, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { GameCard } from './components/GameCard';
 import { games } from './data/games';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -23,7 +23,7 @@ function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <GameController className="w-8 h-8 text-indigo-600" />
+              <img src="https://i.imgur.com/CzaKarX.png" alt="Logo" className="w-8 h-8" />
               <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Kirby Unblocked Games</h1>
             </div>
             <ThemeToggle />
@@ -78,7 +78,7 @@ function HomePage() {
       <footer className="bg-white dark:bg-gray-800 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-center text-gray-500 dark:text-gray-400">
-            © {new Date().getFullYear()} Unblocked Games. Play responsibly.
+            © {new Date().getFullYear()} Kirby Unblocked Games. All rights reserved.
           </p>
         </div>
       </footer>

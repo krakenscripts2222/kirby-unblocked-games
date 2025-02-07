@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Maximize, Home } from 'lucide-react';
+import { Maximize, ArrowLeft } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { games } from '../data/games';
 import { GameCard } from './GameCard';
@@ -36,8 +36,8 @@ export function GameView() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex justify-between items-center mb-6">
           <Link to="/" className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
-            <Home className="w-6 h-6" />
-            <span>Back to Home</span>
+            <ArrowLeft className="w-6 h-6" />
+            <span>Back</span>
           </Link>
           <button 
             onClick={toggleFullscreen}
