@@ -67,8 +67,8 @@ export const games: Game[] = [
     id: 'rooftop-snipers',
     title: 'Rooftop Snipers',
     description: '',
-    image: 'https://images.unsplash.com/photo-1614294148960-9aa740632a87?auto=format&fit=crop&q=80&w=800',
-    gameUrl: 'https://i.imgur.com/WJ0U8y4.jpeg',
+    image: 'https://i.imgur.com/WJ0U8y4.jpeg',
+    gameUrl: 'https://htmlxm.github.io/h/rooftop-snipers',
     category: 'action',
     icon: 'https://i.imgur.com/WJ0U8y4.jpeg'
   },
@@ -86,7 +86,7 @@ export const games: Game[] = [
     title: 'Moto X3m',
     description: '',
     image: 'https://i.imgur.com/hlCgFFx.jpeg',
-    gameUrl: 'https://www.google.com/logos/2010/pacman10-i.html',
+    gameUrl: 'https://htmlxm.github.io/h8/moto-x3m',
     category: 'cars',
     icon: 'https://i.imgur.com/hlCgFFx.jpeg'
   },
