@@ -172,13 +172,13 @@ export const games: Game[] = [
     icon: 'https://i.imgur.com/HE4ttlm.png'
   },
   {
-    id: '1v1-lol',
-    title: '1v1.lol',
+    id: 'stickman-hook',
+    title: 'Stickman Hook',
     description: '',
-    image: 'https://i.imgur.com/O3iyrzW.jpeg',
-    gameUrl: 'https://htmlxm.github.io/h8/1v1lol',
+    image: 'https://i.imgur.com/nupCiIY.jpeg',
+    gameUrl: 'https://htmlxm.github.io/h/stickman-hook',
     category: 'action',
-    icon: 'https://i.imgur.com/O3iyrzW.jpeg'
+    icon: 'https://i.imgur.com/nupCiIY.jpeg'
   },
     {
     id: 'slice-master',
